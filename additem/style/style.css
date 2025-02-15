@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ece8eb;
+}
+nav {
+  background-color: #391031;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 3rem;
+  /* justify-content: space-between; */
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+.navd2 {
+  left: 378px;
+  position: relative;
+}
+
+/* Existing CSS */
+nav {
+  background-color: #391031;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 3rem;
+}
+
+/* Add this CSS for the logo */
+nav img {
+  margin-left: 160px;
+}
+
+.navd1 {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Added CSS for the headings */
+.main-heading {
+  font-size: 24px; /* Increase the font size as desired */
+  margin-bottom: 5px; /* Adjust spacing between headings */
+}
+
+.sub-heading {
+  font-size: 18px; /* Font size for the University text */
+}
+
+/* Updated CSS */
+.navd1 h1 {
+  font-size: 42px; /* Set the font size of h1 to 46 pixels */
+  font-weight: normal;
+  padding-left: 50px;
+}
+
+.navd1 h2 {
+  font-weight: normal; /* Remove bold (set to normal) from h2 */
+  padding-left: 50px;
+  top: -10px;
+  position: relative;
+  display: inline;
+}
+
+.header {
+  height: 63px;
+  width: 100%;
+  background-color: #852572;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #fff;
+  padding-left: 200px;
+  padding-right: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Styles for the search input */
+.search-input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Styles for the navigation links */
+.header-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.header-links a:hover {
+  color: #f1b91d;
+}
+
+.header span {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.search-input {
+  width: 400px; /* Increase the width as needed */
+  height: 30px;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
+  border: none;
+  background-color: rgb(0, 0, 0, 0);
+  position: relative;
+  outline: none;
+}
+
+.search-box {
+  border: 1px solid #ddd;
+  width: 500px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.search-box img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.search-box img:hover {
+  cursor: pointer;
+}
+.logout {
+  width: 80px;
+  background-color: #852572;
+  padding: 2px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid #391031;
+}
+.logout:hover {
+  cursor: pointer;
+  background-color: #391031;
+  color: #f1b91d;
+}
+.active {
+  color: #f1b91d !important;
+}
+.container {
+  background-color: white;
+  width: 75%;
+  height: 650px;
+  margin: 20px auto;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 100px);
+  width: 50%;
+  margin: 20px auto;
+}
+
+.grid-item > input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #ece8eb;
+}
+.grid-item > select {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #ece8eb;
+}
+.grid-item > input:focus {
+  outline: none;
+}
+label {
+  color: #852572;
+}
+.photos {
+  color: #852572;
+}
+.submit {
+  background-color: #852572;
+  color: white;
+  width: 80%;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+}
+.sub {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: -20px;
+}
+.submit:hover {
+  cursor: pointer;
+
+  color: #f1b91d;
+}
+.logoutbtn {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #852572;
+  border: 2px solid #391031;
+}
+
+.logoutbtn > a {
+  text-decoration: none;
+  color: white;
+}
+
+.logoutbtn:hover {
+  background-color: #391031;
+}
