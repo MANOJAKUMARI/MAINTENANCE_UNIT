@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ece8eb;
+}
+.container {
+  width: 80%;
+  background-color: white;
+  border-radius: 30px;
+  margin: 20px auto !important;
+  height: 750px;
+}
+.back > input {
+  border: none;
+  pad: 5px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.back > input:hover {
+  color: #852572;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #852572;
+}
+.card > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.form {
+  margin: 20px auto;
+  width: 50%;
+  padding-top: 20px;
+}
+.inp {
+  margin: 20px auto;
+}
+.inp > input {
+  width: 100%;
+  height: 40px;
+  background-color: #ece8eb;
+  border-radius: 30px;
+  padding: 0 20px;
+  border: none;
+  color: #852572;
+}
+label {
+  color: #852572;
+}
+.book {
+  margin: 20px auto;
+  width: 50%;
+  color: white;
+}
+.book > input {
+  width: 100%;
+  height: 40px;
+  color: white;
+  margin: 20px auto;
+  background-color: #852572;
+  border: none;
+  border-radius: 30px;
+}
+.book > input:hover {
+  background-color: #391031;
+  color: #f1b91d;
+}
+.title {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.name {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 50px !important;
+  height: 30px;
+}

@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ece8eb;
+}
+nav {
+  background-color: #391031;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 3rem;
+  /* justify-content: space-between; */
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+.navd2 {
+  left: 360px;
+  position: relative;
+  /* background-color: #ddd; */
+  width: 200px;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.logoutbtn {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #391031;
+  border: 2px solid #852572;
+}
+
+.logoutbtn > a {
+  text-decoration: none;
+  color: white;
+}
+
+.logoutbtn:hover {
+  background-color: #852572;
+}
+
+/* Existing CSS */
+nav {
+  background-color: #391031;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 3rem;
+}
+
+/* Add this CSS for the logo */
+nav img {
+  margin-left: 160px;
+}
+
+.navd1 {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Added CSS for the headings */
+.main-heading {
+  font-size: 24px; /* Increase the font size as desired */
+  margin-bottom: 5px; /* Adjust spacing between headings */
+}
+
+.sub-heading {
+  font-size: 18px; /* Font size for the University text */
+}
+
+/* Updated CSS */
+.navd1 h1 {
+  font-size: 42px; /* Set the font size of h1 to 46 pixels */
+  font-weight: normal;
+  padding-left: 50px;
+}
+
+.navd1 h2 {
+  font-weight: normal; /* Remove bold (set to normal) from h2 */
+  padding-left: 50px;
+  top: -10px;
+  position: relative;
+}
+
+/* .navd2 {
+  padding-right: 50px;
+} */
+
+.header {
+  height: 63px;
+  width: 100%;
+  background-color: #852572;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #fff;
+  padding-left: 200px;
+  padding-right: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Styles for the search input */
+.search-input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Styles for the navigation links */
+.header-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.header-links a:hover {
+  color: #f1b91d;
+}
+
+.header span {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.search-input {
+  width: 400px; /* Increase the width as needed */
+  height: 30px;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
+  border: none;
+  background-color: rgb(0, 0, 0, 0);
+  position: relative;
+  outline: none;
+}
+
+.search-box {
+  border: 1px solid #ddd;
+  width: 600px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.search-box img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.search-box img:hover {
+  cursor: pointer;
+}
+/* hero**************************************************************************************************** */
+.hero {
+  width: 100%;
+  height: 395px;
+  background: url("./hero-img3.jpg");
+}
+
+/* content */
+/* .content {
+  width: 75%;
+  background-color: aqua;
+  margin: 10px auto;
+  height: 300px;
+} */
+.card {
+  max-width: 200px;
+  flex: 1 1 210px;
+  text-align: center;
+  height: 300px;
+  border: 3px solid #852572;
+  margin: 20px;
+  /* padding: 5px; */
+  background-color: #f1b91d;
+  border-radius: 30px;
+}
+.image {
+  height: 75%;
+
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+.image > img {
+  width: 100%;
+  /* display: flex; */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.btn {
+  background-color: #852572;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+.btn:hover {
+  background-color: #391031;
+  color: #f1b91d;
+}
+.caption > p {
+  margin-bottom: 5px;
+}
+/* Updated CSS for the footer ********************************************************************************/
+footer {
+  background-color: #391031;
+  height: 250px;
+  width: 100% !important;
+}
+.footer {
+  width: 75%;
+  height: 200px;
+  background: #391031;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-element {
+  padding: 0.5rem;
+  color: white;
+}
+.el {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  margin-top: 50px;
+}
+.title {
+  font-weight: 600;
+}
+.coppy-right {
+  color: white;
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  margin-top: -30px;
+}
+hr {
+  color: white;
+  size: 3px;
+}
+.el:hover {
+  text-decoration: underline;
+  color: #f1b91d;
+}
+.container-1 {
+  width: 80%;
+  margin: 20px auto;
+  /* background-color: #852572; */
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px; /* Adjust the negative margin to counteract the column padding */
+}
+
+.col-md-2 {
+  flex: 0 0 20%; /* Adjust the column width to fit 5 columns in a row (20% width for each) */
+  padding: 0 10px; /* Adjust column padding */
+  box-sizing: border-box;
+  margin-bottom: 30px; /* Adjust margin between columns */
+}
+
+.card {
+  background-color: white; /* Adjust card background color */
+  border-radius: 20px; /* Adjust card border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust card shadow */
+  padding: 10px; /* Adjust card padding */
+  padding-bottom: 20px;
+  height: 320px;
+}
+
+.card img {
+  max-width: 100%; /* Ensure images don't exceed the width of the card */
+  height: 100%;
+  border-radius: 8px; /* Optional: Apply border radius to images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust card shadow */
+}
+
+.card-title {
+  margin-top: -18px !important; /* Adjust spacing for card title */
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+.not-available {
+  color: red;
+}
