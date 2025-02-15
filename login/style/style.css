@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body {
+  background-color: #ece8eb;
+}
+.maindiv {
+  background-color: white !important;
+  height: 750px;
+  width: 70%;
+  margin: auto;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.logo {
+  background-color: white;
+  color: white;
+}
+.logo > img {
+  padding: 1rem;
+}
+
+.container1 {
+  width: 80%;
+  height: 300px;
+  border-radius: 50px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  /* align-items: center; */
+}
+
+.title1 {
+  width: 500px;
+  height: 100px;
+  padding-bottom: 9rem;
+}
+.title2 {
+  padding-top: 2rem;
+  font-weight: 300;
+  color: black;
+}
+.title3 {
+  font-weight: 600;
+  color: #852572;
+}
+.form {
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5em;
+}
+.input {
+  width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto; /* Set the grid rows to auto */
+  padding-bottom: 3rem;
+  align-items: left;
+  justify-content: start;
+}
+
+.input > div {
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.input > div > input {
+  background: #ece8eb;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+label {
+  color: #852572;
+  background-color: white;
+  text-align: left;
+}
+.submit {
+  background-color: #852572;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.submit > input {
+  background-color: #852572;
+  color: white;
+  font-weight: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.submit > input:hover {
+  color: #f1b91d;
+}
+.form input {
+  border: none;
+}
+.forgot {
+  /* background-color: #f1b91d; */
+  text-align: left;
+  margin-top: -25px !important;
+}
+.link {
+  text-decoration: none;
+}
+.forgot a.link:hover {
+  text-decoration: underline;
+  color: #f1b91d;
+}
+
+.forgot a {
+  color: #852572;
+}
+.forgot p {
+  color: #391031;
+}
+.singup {
+  margin-top: 15px;
+}
+.singup a.link:hover {
+  text-decoration: underline;
+  color: #f1b91d;
+}
+p.error {
+  background-color: red;
+  padding: 1rem;
+  color: white;
+  width: 100%;
+}
+@keyframes pushUp {
+  0% {
+    transform: translateY(0); /* Initial position */
+  }
+  100% {
+    transform: translateY(-50px); /* Push up by 20px */
+  }
+}
+
+.form {
+  margin-top: 50px; /* Adjust the top margin as needed */
+  animation: pushUp 0.5s ease-in-out forwards; /* Apply animation to the form */
+}
